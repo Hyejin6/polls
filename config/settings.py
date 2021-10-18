@@ -23,8 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '1i@a^93_gp1!qv^fbzrh@wptsg+bj_y09fcvy%gxbqkw&7w$ir'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True ## False로 바꾸면 오류가나도 오류메시지가 안뜸
-DEBUG = False # 개발이 완료되었다는 가정하에
+DEBUG = True ## False로 바꾸면 오류가나도 오류메시지가 안뜸
+#DEBUG = False # 개발이 완료되었다는 가정하에
 
 ALLOWED_HOSTS = ['*'] # 모든 사람이 접속할 수 있게함. '*'
 
