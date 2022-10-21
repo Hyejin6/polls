@@ -1,0 +1,9 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">HYEJIN POLLS ADMIN</a></h1> <!-- 지정한 이름으로 어드민 사이트 이름이 변경됨 -->
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
